@@ -1,0 +1,13 @@
+#モード選択 <True, False>
+#True=ロボットの前方;     False=画像の下半分
+roi_mode:            True 
+
+#そら以下領域のheightしきい値
+start_row:           360
+
+#roi(ロボット前方)の左上と右下座標
+left_top:            [320, 180]
+right_bottom:        [960, 540]
+
+#目標平均輝度値
+target_brightness:   100.00

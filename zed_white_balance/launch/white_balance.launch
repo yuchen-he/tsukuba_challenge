@@ -1,0 +1,4 @@
+<launch>
+  <rosparam command="load" file="$(find zed_white_balance)/scripts/target_parameter.yaml" />
+  <node pkg="zed_white_balance" name="white_balance" type="white_balance.py"/>
+</launch>
